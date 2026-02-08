@@ -94,20 +94,20 @@ export default function Home() {
                 className="flex-1 text-left"
             >
                 <div className="text-xs font-bold tracking-[0.3em] uppercase mb-4 text-cyan-200">
-                    Diplomatic Corps Interface
+                    Personal finance tracker
                 </div>
                 
                 <h1 className="text-6xl md:text-8xl font-black mb-6 leading-tight drop-shadow-lg">
-                   <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white to-pink-200">Diplomatic </span>
-                   <span className="block">Corps</span>
+                   <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white to-pink-200">EXPENSE </span>
+                   <span className="block"></span>
                 </h1>
                 
                 <h2 className="text-2xl md:text-3xl font-light tracking-widest uppercase mb-8 text-pink-200/80">
-                   Abstract Background
+                   {/* Abstract Background */}
                 </h2>
                 
                 <p className="max-w-md text-sm md:text-base leading-relaxed text-blue-100/90 mb-10 font-medium">
-                    "Lorem ipsum for diplomats: We facilitate secure intergalactic communication and simulate complex planetary interactions through advanced generative UI."
+                    "Take control of your finances with our AI-powered expense tracker. Get real-time insights, personalized budgeting tips, and effortless expense management—all in one intuitive app."
                 </p>
 
                 <div className="flex gap-4 items-center">
