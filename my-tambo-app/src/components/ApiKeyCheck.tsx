@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 interface ApiKeyCheckProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 const ApiKeyMissingAlert = () => (
