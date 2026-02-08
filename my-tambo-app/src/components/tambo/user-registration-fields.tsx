@@ -4,11 +4,12 @@ import { InputFields } from "@/components/tambo/input-fields";
 
 export function UserRegistrationFields() {
   return (
-    <InputFields
-      title="Create Account"
-      fields={[
+    <div className="space-y-4">
+      <h3 className="text-lg font-semibold">Create Account</h3>
+      <InputFields
+        fields={[
         {
-          name: "username",
+          id: "username",
           label: "Username",
           type: "text",
           required: true,
@@ -20,7 +21,7 @@ export function UserRegistrationFields() {
           autoComplete: "username",
         },
         {
-          name: "email",
+          id: "email",
           label: "Email",
           type: "email",
           required: true,
@@ -29,7 +30,7 @@ export function UserRegistrationFields() {
           autoComplete: "email",
         },
         {
-          name: "password",
+          id: "password",
           label: "Password",
           type: "password",
           required: true,
@@ -40,7 +41,7 @@ export function UserRegistrationFields() {
           autoComplete: "new-password",
         },
         {
-          name: "phone",
+          id: "phone",
           label: "Phone",
           type: "text",
           placeholder: "(555) 123-4567",
@@ -49,7 +50,7 @@ export function UserRegistrationFields() {
           autoComplete: "tel",
         },
         {
-          name: "age",
+          id: "age",
           label: "Age",
           type: "number",
           placeholder: "25",
@@ -61,5 +62,6 @@ export function UserRegistrationFields() {
       variant="solid"
       layout="compact"
     />
+    </div>
   );
 }
