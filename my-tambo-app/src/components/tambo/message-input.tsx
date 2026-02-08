@@ -1184,30 +1184,7 @@ const MessageInputError = React.forwardRef<
 });
 MessageInputError.displayName = "MessageInput.Error";
 
-/**
- * Props for the MessageInputFileButton component.
- */
-export interface MessageInputFileButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  /** Accept attribute for file input - defaults to image types */
-  accept?: string;
-  /** Allow multiple file selection */
-  multiple?: boolean;
-}
 
-/**
- * File attachment button component for selecting images from file system.
- * @component MessageInput.FileButton
- * @example
- * ```tsx
- * <MessageInput>
- *   <MessageInput.Textarea />
- *   <MessageInput.Toolbar>
- *     <MessageInput.FileButton />
- *     <MessageInput.SubmitButton />
- *   </MessageInput.Toolbar>
- * </MessageInput>
- * ```
- */
 
 export type MessageInputContextAttachmentButtonProps =
   React.ButtonHTMLAttributes<HTMLButtonElement> & {
